@@ -17,25 +17,29 @@ A collection of utility programs for TI-EVO and TI-84 Plus CE graphing calculato
   - Find the minimum root of a given value under a radical.
   - Given the X integer under the radical (for Sqrt(X) just use X)
   - ex: <code>X=27 ➡️ 3*√(3)</code>
-  
-- <h3>FACTOR</h3> 
 
-  - Find prime factors of X. 
-  - ex: <code>27 ➡️ {1,3,9,27}</code>
-- <h3>MOD</h3> 
-
-  - Calc Modulus of X. Useful for finding co-terminal values.
-  - ex: <code>295, 180 ➡️ 115</code> 
-- <h3>PIRATIO</h3> 
-
-  - Find the exact pi ratio of a given decimal approximation.
-  - <code>X = 1.832595715 (represents 7π/12)</code>
-  - ex: <code>1.832595715 ➡️ 7π/12</code> 
 - <h3>ROOTMATC</h3> 
   
   - Find an exact root that matches a decimal value approximation.
   - <code>X=5.360475154 (represents 8*√(22)/7 )</code>
   - ex: <code>5.360475154 ➡️ 8*√22/7</code>
+  
+- <h3>FACTOR</h3> 
+
+  - Find prime factors of X. 
+  - ex: <code>27 ➡️ {1,3,9,27}</code>
+
+- <h3>MOD</h3> 
+
+  - Calc Modulus of X. Useful for finding co-terminal values.
+  - ex: <code>295, 180 ➡️ 115</code> 
+
+- <h3>PIRATIO</h3> 
+
+  - Find the exact pi ratio of a given decimal approximation.
+  - <code>X = 1.832595715 (represents 7π/12)</code>
+  - ex: <code>1.832595715 ➡️ 7π/12</code> 
+
 
 <h2>TI-84 Evo Links:</h2>
 
