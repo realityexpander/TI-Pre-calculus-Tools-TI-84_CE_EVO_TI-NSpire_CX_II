@@ -150,14 +150,14 @@ Connect to Physical Calculator
     * To refresh the libraries, `[doc] -> 6. Refresh Libraries`
     * Access the functions by `[Library Key] -> 6 Custom Functions ->` pick your file & function.
 
-<h3><i>compint</i>: Compute Interest / Decay / Compound Interest </h3>
+<h3> <code>compint</code>: Compute Interest / Decay / Compound Interest </h3>
 
 - <code>compint(prin,rate,period,time)</code> - compute interest given principal, rate, period, time
 - <code>contcompint(prin,rate,time)</code> - compute continuously compounding interest given principle, rate, time
 - <code>expdecay(init,half_life,time)</code> - compute exponential decay given Initial Amount, Half life (years), time (years)
 - <code>expgrow(init,growth,time)</code> - Compute exponential growth given initial amount, growth (in a period), time (periods)
 
-<h3><i>cvt_degs_rad</i>: Tools to convert degrees to radians and radians to degrees, find reference angles</h3>
+<h3><code>cvt_degs_rad</code>: Tools to convert degrees to radians and radians to degrees, find reference angles</h3>
 
 - <code>to_degrees(x)</code> - Convert x radians to degrees, ie: (r * 180) / pi
 - <code>to_radians(x)</code> - Convert x degrees to radians, ie: (d / 180) * pi
@@ -165,7 +165,7 @@ Connect to Physical Calculator
 - <code>to_ref_rad2(n,d)</code> - Convert pi ratio radians (Numerator w/o pi, Denominator) to reference angle radians in Quadrant I
 - <code>to_ref_rads(x)</code> - Convert x radians to reference angle radians in Quadrant I 
 
-<h3><i>exacts</i>: Tools to find the exact values based on decimal approximations within an error range.</h3>
+<h3><code>exacts</code>: Tools to find the exact values based on decimal approximations within an error range.</h3>
 
 - <code>exact_pi(x)</code>
   - Improved exact_pi, convert decimal approximation of a pi ratio to an exact pi ratio, x < n*pi/1000
@@ -183,7 +183,7 @@ Connect to Physical Calculator
   - `√( (a ± √b) / c)`  ➡️  `(√x ± √y)/c` 
   - ex: `(sqrt(2 + sqrt(3)))/4, nest_rad(2,3,4)`   ➡️  `(√6 ± √2)/4`
  
-<h3><i>fact</i>: Tools to finds factors of a integer, or set of polynomial coefficients.</h3>
+<h3><code>fact</code>: Tools to finds factors of a integer, or set of polynomial coefficients.</h3>
 
 - <code>facts(constant,lead_coeff)</code> - Gives all factors for a an equation, given the leading coefficient and ending constant, used to find roots of a complicated equation (usually above order 2), and finding an initial divisor for synthetic division.
   - <code>3*x^(3)-6*x^(2)-57*x+60,  constant (num)=60, lead_coeff (denom)=3
@@ -204,7 +204,7 @@ Connect to Physical Calculator
   - Input: `6*x^2-8*x-8 -> quadrat_terms(6,-8,-8)`
   - Output: `{2,"(x-2)","(3x+2)"} -> 2*(3*x + 2)*(2*x - 4)`
 
-<h3><i>law_of_cos</i>: Using the law of cosines, compute triangle values for various kinds of triangles.</h3>
+<h3><code>law_of_cos</code>: Using the law of cosines, compute triangle values for various kinds of triangles.</h3>
 
 - These could possibly solved better using the nsolve command (in DEG mode): 
   - ex:<code>nSolve(c^2=a^2+b^2-2*a*b*cos(cd),cd)|a=3 and b=4 and c=5   ➡️   ad=90</code>
