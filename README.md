@@ -157,7 +157,7 @@ Connect to Physical Calculator
 
 <h3><code>law_of_cos</code>: Using the law of cosines, compute triangle values for various kinds of triangles.</h3>
 
-- These could possibly solved better using the nsolve command (in DEG mode): 
+- These could possibly solved better using the built-in `nsolve` command (in DEG mode): 
   - ex:`nSolve(c^2=a^2+b^2-2*a*b*cos(cd),cd)|a=3 and b=4 and c=5`   ➡️   `ad=90`
 - `law_of_cos_sas(side_a, ang_c, side_b)`
   - Computes side C length. ang_c is in degrees and does not require DEG mode. 
