@@ -189,8 +189,12 @@ Connect to Physical Calculator
   - ex: <code>sum=3, product=-28, findfact(3,-20) ➡️   {−4,7} means the two unexpanded source equations are: (x-4)(x+7) for: x^2+3*x-28</code>
 - <code>quadrat(a,b,c)</code>
   - Similar to polysolve, finds constants and coefficients for quadratic equations.
-  - ex:<code> x^(2)+3*x-28, quadrat(1,3,−28)   ➡️  {−3,"±",11,"ℝ","/",2,"→",4,−7}</code>
-    - which means: (x-4)(x+7), which has roots at x=4, x=-7  
+  - ex:<code> x^(2)+3*x-28 -> quadrat(1,3,−28)   ➡️  {−3,"±",11,"ℝ","/",2,"→",4,−7}</code>
+    - which means: (x-4)(x+7), which has real roots at x=4, x=-7
+- <code>quadrat_terms(a,b,c)</code>
+  - Similar to quadrat but gives the full terms for the factored quadratic equation (real roots only.)
+  - Input: `6*x^2-8*x-8 -> quadrat_terms(6,-8,-8)`
+  - Output: `{2,"(x-2)","(3x+2)"} -> 2*(3*x + 2)*(2*x - 4)`
 
 <h3><i>law_of_cos</i>: Using the law of cosines, compute triangle values for various kinds of triangles.</h3>
 
