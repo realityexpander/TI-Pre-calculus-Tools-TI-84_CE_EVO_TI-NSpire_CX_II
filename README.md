@@ -142,6 +142,14 @@ Connect to Physical Calculator
 # 2. TI-Nspire CX-II NON-CAS programs
 
 <h2>Programs for Pre-calculus on the TI-NSpire CX II (NON-CAS). Adds some functionality from CAS calculator, like converting decimals to exact values and ratios of pi, useful for confirming hand-written work on tests and quizzes, if your professor allows use of this NON-CAS calculator.</h2>
+
+<h3>Installation</h3>
+
+  * To Install these function libraries:
+    * use TI-Nspire Student software to transfer the `XXX.tns` to the `MyLib` folder on the calculator.
+    * To refresh the libraries, `[doc] -> 6. Refresh Libraries`
+    * Access the functions by `[Library Key] -> 6 Custom Functions ->` pick your file & function.
+
 <h3><i>compint</i>: Compute Interest / Decay / Compound Interest </h3>
 
 - <code>compint(prin,rate,period,time)</code> - compute interest given principal, rate, period, time
