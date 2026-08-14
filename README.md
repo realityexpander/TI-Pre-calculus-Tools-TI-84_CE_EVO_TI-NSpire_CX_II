@@ -175,7 +175,7 @@ Connect to Physical Calculator
   - √( (a ± √b) / c)  ➡️  (√x ± √y)/c 
   - ex: (sqrt(2 + sqrt(3)))/4, nest_rad(2,3,4)   ➡️  (√6 ± √2)/4
  
-<h3><i>factors</i>: Finds factors of a integer.</h3>
+<h3><i>fact</i>: Tools to finds factors of a integer, or set of polynomial coefficients.</h3>
 
 - <code>facts(constant,lead_coeff)</code> - Gives all factors for a an equation, given the leading coefficient and ending constant, used to find roots of a complicated equation (usually above order 2), and finding an initial divisor for synthetic division.
   - <code>3*x^(3)-6*x^(2)-57*x+60,  constant (num)=60, lead_coeff (denom)=3
@@ -189,9 +189,9 @@ Connect to Physical Calculator
   - ex: <code>sum=3, product=-28, findfact(3,-20) ➡️   {−4,7} means the two unexpanded source equations are: (x-4)(x+7) for: x^2+3*x-28</code>
 - <code>quadrat(a,b,c)</code>
   - Similar to polysolve, finds constants and coefficients for quadratic equations.
-  - ex:<code> x^(2)+3*x-28 -> quadrat(1,3,−28)   ➡️  {−3,"±",11,"ℝ","/",2,"→",4,−7}</code>
-    - which means: (x-4)(x+7), which has real roots at x=4, x=-7
-- <code>quadrat_terms(a,b,c)</code>
+  - ex:`x^(2)+3*x-28 -> quadrat(1,3,−28)`   ➡️  `{−3,"±",11,"ℝ","/",2,"→",4,−7}`
+    - which means: `(x-4)(x+7)`, which has real roots at `x=4, x=-7`
+- `quadrat_terms(a,b,c)`
   - Similar to quadrat but gives the full terms for the factored quadratic equation (real roots only.)
   - Input: `6*x^2-8*x-8 -> quadrat_terms(6,-8,-8)`
   - Output: `{2,"(x-2)","(3x+2)"} -> 2*(3*x + 2)*(2*x - 4)`
