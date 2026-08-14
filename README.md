@@ -149,7 +149,7 @@ Connect to Physical Calculator
 - <code>expdecay(init,half_life,time)</code> - compute exponential decay given Initial Amount, Half life (years), time (years)
 - <code>expgrow(init,growth,time)</code> - Compute exponential growth given initial amount, growth (in a period), time (periods)
 
-<h3><i>cvt_degs_rad</i>: Convert degrees to radians and radians to degrees, reference angles</h3>
+<h3><i>cvt_degs_rad</i>: Tools to convert degrees to radians and radians to degrees, find reference angles</h3>
 
 - <code>to_degrees(x)</code> - Convert x radians to degrees, ie: (r * 180) / pi
 - <code>to_radians(x)</code> - Convert x degrees to radians, ie: (d / 180) * pi
@@ -157,23 +157,23 @@ Connect to Physical Calculator
 - <code>to_ref_rad2(n,d)</code> - Convert pi ratio radians (Numerator w/o pi, Denominator) to reference angle radians in Quadrant I
 - <code>to_ref_rads(x)</code> - Convert x radians to reference angle radians in Quadrant I 
 
-<h3><i>exacts</i>: Find the exact values based on decimal approximations within an error range.</h3>
+<h3><i>exacts</i>: Tools to find the exact values based on decimal approximations within an error range.</h3>
 
 - <code>exact_pi(x)</code>
   - Improved exact_pi, convert decimal approximation of a pi ratio to an exact pi ratio, x < n*pi/1000
-  - <code>ex: exact_pi(4.9367884556411) ➡️ {11., "π/", 7.}     ie: (11π/7) </code>
-- <code>exact_pi_old(x)</code>
+  - ex: `exact_pi(4.9367884556411)` ➡️ `{11., "π/", 7.}`     ie: `(11π/7)`
+- `exact_pi_old(x)`
   - SLOW VERSION - Convert decimal approximation of a pi ratio to an exact pi ratio, x < 50*pi/50
-  - <code>ex: exact_pi(4.9367884556411) ➡️ {11, "π", "/", 7}      ie: (11π/7) </co
-- <code>exactsq(x)</code>
+  - ex: `exact_pi(4.9367884556411)` ➡️ `{11, "π", "/", 7}`      ie: `(11π/7)`
+- `exactsq(x)`
   - Find the exact square value given a decimal value x, max ( ((20 * sqrt(100)) / (20) )
-  - <code>ex: exactsq(10.392304845413) ➡️ {6., "√", 3, "/", 1 }     ie: (6√3)</code>
-- <code>minroot(x)</code>
+  - ex: `exactsq(10.392304845413)` ➡️ `{6., "√", 3, "/", 1 }`     ie: `(6√3)`
+- `minroot(x)`
   - Given a value x under a radical, find the minimum root value. Ex: sqrt(27) -> x=27
-  - ex: <code> minroot(27) ➡️ {3, "√", 3} which means 3√3</code>
-- <code>nest_rad(a,b,c)</code> - Given coefficients under a nested set of radicals, reduce to two separate radicals.
-  - √( (a ± √b) / c)  ➡️  (√x ± √y)/c 
-  - ex: (sqrt(2 + sqrt(3)))/4, nest_rad(2,3,4)   ➡️  (√6 ± √2)/4
+  - ex: `minroot(27)` ➡️ `{3, "√", 3}` which means `3√3`
+- `nest_rad(a,b,c)` - Given coefficients under a nested set of radicals, reduce to two separate radicals.
+  - `√( (a ± √b) / c)`  ➡️  `(√x ± √y)/c` 
+  - ex: `(sqrt(2 + sqrt(3)))/4, nest_rad(2,3,4)`   ➡️  `(√6 ± √2)/4`
  
 <h3><i>fact</i>: Tools to finds factors of a integer, or set of polynomial coefficients.</h3>
 
