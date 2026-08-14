@@ -83,7 +83,7 @@ Connect to Physical Calculator
     - https://www.cemetech.net/sc/
       
 ### Use TI-84 Plus CE Open Source emulator (TI-SmartView is discontinued as of Oct 2026)
-  - Instructions on how to [install the Open Source TI-84 Emulator](Use TI-84 Plus CE Open Source emulator.md)
+  - Instructions on how to [install the Open Source TI-84 Emulator](Use%20TI-84%20Plus%20CE%20Open%20Source%20emulator.md)
 
 
 
