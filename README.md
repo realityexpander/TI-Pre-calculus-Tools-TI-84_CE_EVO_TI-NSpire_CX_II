@@ -207,25 +207,25 @@ Connect to Physical Calculator
 <h3><code>law_of_cos</code>: Using the law of cosines, compute triangle values for various kinds of triangles.</h3>
 
 - These could possibly solved better using the nsolve command (in DEG mode): 
-  - ex:<code>nSolve(c^2=a^2+b^2-2*a*b*cos(cd),cd)|a=3 and b=4 and c=5   ➡️   ad=90</code>
-- <code>law_of_cos_sas(side_a, ang_c, side_b)</code>
+  - ex:`nSolve(c^2=a^2+b^2-2*a*b*cos(cd),cd)|a=3 and b=4 and c=5`   ➡️   `ad=90`
+- `law_of_cos_sas(side_a, ang_c, side_b)`
   - Computes side C length. ang_c is in degrees and does not require DEG mode. 
   - ex: <code> law_of_cos_sas(3,90,4)   ➡️  5 </code>
-- <code>law_cos_sss(side_a, side_b, side_c)</code>
+- `law_cos_sss(side_a, side_b, side_c)`
   - Computes angle A (opposite side_a) in DEGREES.
   - ex: <code> law_of_cos_sss(3,4,5)   ➡️  36.8699° </code>
-- <code>law_cos_ass(ang_a, side_b, side_a)</code>
+- `law_cos_ass(ang_a, side_b, side_a)`
   - Computes triangle data for 0, 1, 2 triangle cases for SSA triangles.
   - NOTE: Parameter side_b is adjacent to ang_a, side_a is opposite ang_a
   - Outputs the 1st & 2nd triangle angles, A, B, C, and length a, b, c, and if second triangle exists, the A', B', C' angles and a', b', c' sides.
-  - ex: <code> law_of_cos\law_cos_ass(60,15,14)    ➡️
-    [["1△°A,B,C",60,68.1074,51.8926]
-    ["1 len a,b,c",14,15,12.72015]
-    ["2△°A',B',C'",60,111.8926,8.1074]
-    ["2 len a',b',c'",14,15,2.2798]] </code>
-- semi_perim(side_a,side_b,side_c)</code>
-  - Computes semi-perimeter =(a+b+c)/2
-  - ex: <<code> semi_perimeter(3,4,5)   ➡️  6 </code>
-- tri_area(side_a,side_b,side_c)</code>
-  - Computes area of triangle, s=semi-perimiter,  =sqrt(s*(s-side_a)*(s-side_b)*(s-side_c))
-  - ex: <code> tri_area(3,4,5)   ➡️  6 </code>
+  - ex: `law_cos_ass(60,15,14)`    ➡️
+    `[["1△°A,B,C",60,68.1074,51.8926]`
+    `["1 len a,b,c",14,15,12.72015]`
+    `["2△°A',B',C'",60,111.8926,8.1074]`
+    `["2 len a',b',c'",14,15,2.2798]]`
+- `semi_perim(side_a,side_b,side_c)`
+  - Computes semi-perimeter = (a+b+c)/2
+  - ex: `semi_perimeter(3,4,5)`   ➡️  `6` 
+- `tri_area(side_a,side_b,side_c)`
+  - Computes area of triangle, s=semi-perimiter,  = sqrt(s*(s-side_a)*(s-side_b)*(s-side_c))
+  - ex: `tri_area(3,4,5)`   ➡️  `6`
