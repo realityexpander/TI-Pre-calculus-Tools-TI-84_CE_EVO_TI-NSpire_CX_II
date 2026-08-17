@@ -137,7 +137,7 @@ Connect to Physical Calculator
 <h3><code>fact</code>: Tools to finds factors of a integer, or set of polynomial coefficients.</h3>
 
 - <code>facts(constant,lead_coeff)</code> - Gives all factors for a an equation, given the leading coefficient and ending constant, used to find roots of a complicated equation (usually above order 2), and finding an initial divisor for synthetic division.
-  - <code>3*x^(3)-6*x^(2)-57*x+60,  constant (num)=60, lead_coeff (denom)=3
+  - <code>3*x^(3)-6*x^(2)-57*x+60,  constant (numerator "p")=60, lead_coeff (denominator "q")=3
   -  facts(60,3) ➡️
      +/- {1,2,3,4,5,6,10,12,15,20,30,60}   (factors of numerator)
      +/- {1,3}                             (factors of denominator)
