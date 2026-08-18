@@ -123,7 +123,7 @@ Connect to Physical Calculator
   - ex: `exact_pi(4.9367884556411)` ➡️ `{11., "π/", 7.}`     ie: `(11π/7)`
 - `exact_pi_old(x)`
   - SLOW VERSION - Convert decimal approximation of a pi ratio to an exact pi ratio, x < 50*pi/50
-  - ex: `exact_pi(4.9367884556411)` ➡️ `{11, "π", "/", 7}`      ie: `(11π/7)`
+  - ex: `exact_pi_old(4.9367884556411)` ➡️ `{11, "π", "/", 7}`      ie: `(11π/7)`
 - `exactsq(x)`
   - Find the exact square value given a decimal value x, max ( ((20 * sqrt(100)) / (20) )
   - ex: `exactsq(10.392304845413)` ➡️ `{6., "√", 3, "/", 1 }`     ie: `(6√3)`
