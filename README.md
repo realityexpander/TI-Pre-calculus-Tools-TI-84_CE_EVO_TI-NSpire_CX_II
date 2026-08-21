@@ -24,7 +24,7 @@ A collection of utility programs for TI-EVO and TI-84 Plus CE graphing calculato
   - <code>X=5.360475154 (represents 8*√(22)/7 )</code>
   - ex: <code>5.360475154 ➡️ 8*√22/7</code>
   
-- <h3>FACTOR</h3> 
+- <h3>FACTS</h3> 
 
   - Find prime factors of X. 
   - ex: <code>27 ➡️ {1,3,9,27}</code>
