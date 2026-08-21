@@ -170,10 +170,14 @@ Connect to Physical Calculator
   - NOTE: Parameter side_b is adjacent to ang_a, side_a is opposite ang_a
   - Outputs the 1st & 2nd triangle angles, A, B, C, and length a, b, c, and if second triangle exists, the A', B', C' angles and a', b', c' sides.
   - ex: `law_cos_ass(60,15,14)`    ➡️
-    `[["1△°A,B,C",60,68.1074,51.8926]`
-    `["1 len a,b,c",14,15,12.72015]`
-    `["2△°A',B',C'",60,111.8926,8.1074]`
-    `["2 len a',b',c'",14,15,2.2798]]`
+    ```
+    [
+     ["1△°A,B,C",60,68.1074,51.8926]
+     ["1 len a,b,c",14,15,12.72015]
+     ["2△°A',B',C'",60,111.8926,8.1074]
+     ["2 len a',b',c'",14,15,2.2798]
+    ]
+    ```
 - `semi_perim(side_a,side_b,side_c)`
   - Computes semi-perimeter = (a+b+c)/2
   - ex: `semi_perimeter(3,4,5)`   ➡️  `6` 
