@@ -162,6 +162,9 @@ Connect to Physical Calculator
 - `law_of_cos_sas(side_a, ang_c, side_b)`
   - Computes side C length. ang_c is in degrees and does not require DEG mode. 
   - ex: <code> law_of_cos_sas(3,90,4)   ➡️  5 </code>
+  - [Visualization of Comparison of Triangles SAS vs SSA ](https://share.gemini.google/KijwfjB3aXgC)
+    - <img width="320" height="282" alt="image" src="https://github.com/user-attachments/assets/f1ce8be8-6eb3-4030-9357-3f83b460635c" />
+
 - `law_cos_sss(side_a, side_b, side_c)`
   - Computes angle A (opposite side_a) in DEGREES.
   - ex: <code> law_of_cos_sss(3,4,5)   ➡️  36.8699° </code>
@@ -178,6 +181,9 @@ Connect to Physical Calculator
      ["2 len a',b',c'",14,15,2.2798]
     ]
     ```
+  - [Visualization: Ambiguous Triangle ASS ](https://share.gemini.google/nxo5Cc36uYtb)
+     - <img width="325" alt="image" src="https://github.com/user-attachments/assets/e936b109-6e81-4129-b517-9f493f188043" />
+
 - `semi_perim(side_a,side_b,side_c)`
   - Computes semi-perimeter = (a+b+c)/2
   - ex: `semi_perimeter(3,4,5)`   ➡️  `6` 
