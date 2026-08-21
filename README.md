@@ -14,7 +14,7 @@ A collection of utility programs for TI-EVO and TI-84 Plus CE graphing calculato
 
 - <h3>MINROOT</h3> 
 
-  - Find the minimum root of a given value under a radical.
+  - Find the minimum root of a given value under a radical (the radicand).
   - Given the X integer under the radical (for Sqrt(X) just use X)
   - ex: <code>X=27 ➡️ 3*√(3)</code>
 
