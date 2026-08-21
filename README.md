@@ -41,7 +41,7 @@ A collection of utility programs for TI-EVO and TI-84 Plus CE graphing calculato
   - ex: <code>1.832595715 ➡️ 7π/12</code> 
 
 
-<h2>TI-84 Evo Links:</h2>
+<h2>To Install on TI-84 Evo:</h2>
 
 Online Calculator (login realityexpander)
   - [https://ti84evo.ti.com/84evo/en/main-view](https://ti84evo.ti.com/84evo/en/main-view)
@@ -53,7 +53,7 @@ Connect to Physical Calculator
   - Use "send to calculator" to send a program file to a physically connected calculator.
   - Use "send to computer" to copy a program from the physical connected calculator to your computer files.
 
-<h3>TI-84 CE Plus Links:</h3>
+<h2>To Install on TI-84 CE Plus:</h2>
 
 Online Calculator (login realityexpander)
   - [https://ti84evo.ti.com/84evo/en/main-view](https://84plusce.ti.com/8eu/main-view)
@@ -66,7 +66,7 @@ Connect to Physical Calculator
   - Web-based Alternative to "TI Connect CE"
     - https://ticalc.link/   
 
-<h3>TI-84 Evo ↔ CE ↔ BASIC/Python Text File Conversion Links:</h3>
+<h3>Converting TI-84 Evo ↔ CE ↔ BASIC/Python Text File Conversion</h3>
 
   - Convert Text File BASIC code to TI-BASIC Encoded file
     - Use TI-CONNECT CE, paste in code, save as .8xp
