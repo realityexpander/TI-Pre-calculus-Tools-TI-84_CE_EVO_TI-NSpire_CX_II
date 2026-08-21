@@ -1,4 +1,4 @@
-<h1>Programs for Pre-Calculus & Calculus I</h1>
+<h1>TI Calculator Programs for Pre-Calculus & Calculus I</h1>
 
 ## [1. TI-84 Evo & CE Programs](#1-ti-84-evo-ce)
 ## [2. TI-Nspire CX-II NON-CAS programs](#2-ti-nspire-cx-ii)
