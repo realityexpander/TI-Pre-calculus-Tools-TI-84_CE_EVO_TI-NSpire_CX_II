@@ -1,0 +1,15 @@
+Disp "Default Val X: √("+toString(X)+")"
+Disp "Value OR (0 ENTER="
+Input "Use Default): ",V
+If V≠0
+Then
+V→X
+End
+For(I,int(X),1,⁻1)
+If fPart(X/I²)=0
+Then
+Disp "Min Root √("+toString(X)+")="
+Disp toString(I)+"*√("+toString(X/I²)+")"
+Stop
+End
+End

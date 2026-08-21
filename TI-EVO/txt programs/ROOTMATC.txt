@@ -1,0 +1,32 @@
+Disp "Default Val X="
+Disp X
+Disp "Val OR (0 ENTER for default)"
+Input "",V
+If V=0
+Then
+X→V
+End
+Disp "X="
+Disp V
+If V=0
+Then
+Disp "Matching root ="
+Disp "0"
+Stop
+End
+For(C,1,100)
+For(B,1,100)
+B*V/√(C)→T
+round(T,0)→A
+If abs(T-A)<1ᴇ⁻8
+Then
+If abs(A)≤100
+Then
+Disp "Matching root ="
+Disp toString(A)+"*√("+toString(C)+")/"+toString(B)
+Stop
+End
+End
+End
+End
+Disp "No match found"

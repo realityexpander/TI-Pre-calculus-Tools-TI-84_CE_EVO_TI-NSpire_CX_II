@@ -1,0 +1,13 @@
+"FIND FACTORS
+Input "NUM:",N
+0→dim(L1)
+Disp "FACTORS OF:"+toString(N)
+For(I,1,N)
+If fPart(N/I)=0
+Then
+1+dim(L1)→D
+D→dim(L1)
+I→L1(D)
+End
+End
+Disp L1

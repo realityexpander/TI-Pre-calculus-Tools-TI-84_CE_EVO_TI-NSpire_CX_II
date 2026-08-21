@@ -1,0 +1,3 @@
+Input "VAL=",A
+Input "MAX=",B
+Disp A-B*int(A/B)
