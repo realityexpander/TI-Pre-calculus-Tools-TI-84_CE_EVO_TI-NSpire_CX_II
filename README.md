@@ -69,6 +69,7 @@ Connect to Physical Calculator
 <h3>Converting TI-84 Evo ↔ CE ↔ BASIC/Python Text File Conversion</h3>
 
   - Convert Text File BASIC code to TI-BASIC Encoded file
+    -  If leading colon (:) needs to be stripped, use the bash program "strip_lead_colon.bash". Read comments for use details.
     - Use TI-CONNECT CE, paste in code, save as .8xp
     - OR... Use TI-Basic Program Converter @ [https://tiplanet.org/scripts/EvoConv/](https://tiplanet.org/scripts/EvoConv/)
       - Paste in the text, save as .8xp or .8xp2
